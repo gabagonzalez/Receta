@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+/* Style body */
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', cursive;
+    color: #373A3C;
+    
+}
+
+/*Section Header-navbar-inicio btn*/
+.nav h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.3125rem;
+    font-weight: 400;
+}
+nav li, .btn {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*Section Inicio-Pizza*/
+.img-principal {
+    width: 100%;    
+}
+#inicio {
+    margin-top: 8rem;
+}
+section h1 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+section h4 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/*Section Carrusel*/
+.img-carrusel {
+    max-width: 16rem;
+}
+.carousel-indicators {
+    top: 12.5rem;
+
+}
+.carousel-indicators li {
+    width: 0.7925rem;
+    height: 0.7925rem;
+    border-radius: 50%;
+    background-color: #373A3C;
+}
+
+/*Section Ingredientes-Preparación*/
+hr {
+    background-color: #000000;
+    font-size: 0.0625rem;
+}
+p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+/*Section Recetas*/
+.card-img{
+    width:  1.125rem;
+}
+.card h3 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4375rem;
+    font-weight: 700;
+}
+.card p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*Section newsletter*/
+.newsletter-text {
+    padding: 6rem 0 1.25rem 0;        
+}
+.newsletter h2 {
+    display: inline;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+.newsletter span {
+    font-family: 'Lobster', cursive;
+    font-size: 1.875rem;
+    font-weight: 400;
+}
+
+/*Section Contacto-footer*/
+footer {
+    height: 7.9375rem;
+}
+footer h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.3125rem;
+    font-weight: 400;
+    padding-top: 2.5625rem;
+}
+
+/* Madia Queries*/
+@media (max-width: 760px) {
+    #inicio {
+        margin-top: 6rem;
+    }
+    .principal {
+       margin-top: 0rem;
+    }
+    section h1 {
+        font-size: 1.5625rem;  
+        text-align: center;
+        margin: 1rem;
+    }
+    h4 {
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+    .btn {
+        width: 46%;
+        font-size: 0.8125rem;
+    }
+    h3 {
+        font-size: 1.0625rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .newsletter-text h1 {
+        font-size: 1.875rem;
+    }
+    .newsletter-text h2, .newsletter span {
+        font-size: 1.25rem;
+    }
+}
